@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Page Title</title>
+    <meta name="Super AWESOME Website" content="This website is super cool lol">
+    <link rel="stylesheet" href="style.css">
+</head>
+ 
+<body>
+
+    
+    <h1 id="MyHeading">THIS IS MY SUPER AWESOME WEBSITE</h1>
+
+
+    <img  width="200"   src="img1.jpg" alt="">
+    
+    <button id="MyButton">Click Me If You Dare !</button>
+
+        <button onclick="myFunction()">Try it</button>
+        <script>
+function myFunction() {
+  alert("YOU FOUND THE SECRET MESSAGE");}
+  
+
+
+</script>
+
+</body>
+
+<p>
+    This is my first time creating a website 
+    !THANK YOU FOR VISITING!
+</p>
+
+</html>
+
+<script>
+   
+    const MyButton = document.getElementById('MyButton');
+    
+    MyButton.addEventListener('click', function() {
+        
+        document.getElementById('MyHeading').innerText = "!!!!YAY YOU CLICKED THE BUTTON!!!!!"
+    })
+</script>
+
+
+
+
+
+
